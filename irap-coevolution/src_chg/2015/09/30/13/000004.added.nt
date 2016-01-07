@@ -1,0 +1,6 @@
+<http://dbpedia.org/resource/Karen_Buck> <http://dbpedia.org/property/office> "for Westminster North"@en .
+<http://dbpedia.org/resource/Karen_Buck> <http://dbpedia.org/property/office> "(Regent's Park and Kensington North )"@en .
+<http://dbpedia.org/resource/Karen_Buck> <http://xmlns.com/foaf/0.1/name> "Buck, Karen"@en .
+<http://dbpedia.org/resource/Robert_Buckland> <http://dbpedia.org/property/office> "for South Swindon"@en .
+<http://dbpedia.org/resource/Robert_Buckland> <http://xmlns.com/foaf/0.1/name> "Buckland, Robert"@en .
+<http://dbpedia.org/resource/Robert_Buckland> <http://xmlns.com/foaf/0.1/name> "Robert Buckland"@en .

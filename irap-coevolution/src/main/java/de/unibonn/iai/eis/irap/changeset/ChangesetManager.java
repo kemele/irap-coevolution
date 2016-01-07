@@ -4,6 +4,13 @@
 package de.unibonn.iai.eis.irap.changeset;
 
 import java.io.File;
+import java.util.List;
+
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+
+import de.unibonn.iai.eis.irap.sync.SyncManager;
+import de.unibonn.iai.eis.irap.sync.SynchronizationStrategy;
 
 
 /**
@@ -76,39 +83,33 @@ public class ChangesetManager {
             	// change sets exists, reset missing URLs
                  missing_urls = 0;
                  
-                /* Model addedTriples = ModelFactory.createDefaultModel();
-                 Model removedTriples = ModelFactory.createDefaultModel();
+                 System.out.println("Processed files = "+processedFiles);
                  
-                 if(addedchanges.exists()){
-                	 addedTriples = RDFDataMgr.loadModel(addedTriplesURL);
-                 }
+                 Model srcAdded = ModelFactory.createDefaultModel();
+                 Model srcRemoved = ModelFactory.createDefaultModel();
                  
-                 if(deletedchanges.exists()){
-                	 removedTriples = RDFDataMgr.loadModel(deletedTriplesURL);
-                 }*/
-                 System.out.print(processedFiles);
+                 Model targetAdded = ModelFactory.createDefaultModel();
+                 Model targetRemoved = ModelFactory.createDefaultModel();
+                 
                  if(srcAddedchanges.exists())
-                	 System.out.print(srcAddedTriplesURL + " ==== ");
+                	 srcAdded = srcAdded.read(srcAddedTriplesURL);
                  
                  if(srcDeletedchanges.exists())
-                	 System.out.print(srcDeletedTriplesURL + " ==== ");
+                	 srcRemoved.read(srcDeletedTriplesURL);
                  
                  if(targetAddedchanges.exists())
-                	 System.out.print(targetAddedTriplesURL + " ==== ");
+                	 targetAdded.read(targetAddedTriplesURL);
                  
                  if(targetDeletedchanges.exists())
-                	 System.out.print(targetDeletedTriplesURL + " ==== ");
-                 System.out.println();
-                 //Changeset changeset = new Changeset(folder, removedTriples, addedTriples, currentCounter.getSequenceNumber());	        
+                	 targetRemoved.read(targetDeletedTriplesURL);
+               
                  
-                 //Notify evaluator
-               //  logger.info("Notifying interest evaluation manager by sending changeset triples .....");
+                 SyncManager manager = new SyncManager(srcAdded, srcRemoved, targetAdded, targetRemoved, SynchronizationStrategy.STRATEGY_I);
                  
-                 //InterestEvaluationManager eval= new InterestEvaluationManager(interestManager, changeset);
-                 //eval.begin();
+                 System.out.println("Starting synchronization ....");
+                 List<Model> result = manager.sync();
+                 System.out.println(result.get(0).size() + " triples added and " + result.get(1).size() + " triples removed" );
                  
-                 
-                // logger.info("Updating last processed changeset data ...");
                  // save last processed date
                  LastDownloadDateManager.writeLastDownloadDate(LAST_DOWNLOAD, currentCounter.toString());
                //  logger.info("Incrementing changeseet counter .. .");

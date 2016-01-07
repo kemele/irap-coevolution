@@ -1,0 +1,9 @@
+<http://dbpedia.org/resource/Paul_Blomfield> <http://dbpedia.org/property/office> "for Sheffield Central"@en .
+<http://dbpedia.org/resource/Paul_Blomfield> <http://xmlns.com/foaf/0.1/name> "Paul Blomfield"@en .
+<http://dbpedia.org/resource/Paul_Blomfield> <http://xmlns.com/foaf/0.1/name> "Blomfield, Paul"@en .
+<http://dbpedia.org/resource/Roberta_Blackman-Woods> <http://dbpedia.org/property/office> "for City of Durham"@en .
+<http://dbpedia.org/resource/Roberta_Blackman-Woods> <http://xmlns.com/foaf/0.1/name> "Blackman-Woods, Roberta"@en .
+<http://dbpedia.org/resource/Roberta_Blackman-Woods> <http://xmlns.com/foaf/0.1/name> "Roberta Blackman-Woods"@en .
+<http://dbpedia.org/resource/Crispin_Blunt> <http://dbpedia.org/property/office> "Parliamentary Under-Secretary of State for Prisons and Youth Justice"@en .
+<http://dbpedia.org/resource/Crispin_Blunt> <http://dbpedia.org/property/office> "for Reigate"@en .
+<http://dbpedia.org/resource/Crispin_Blunt> <http://xmlns.com/foaf/0.1/name> "Blunt, Crispin"@en .

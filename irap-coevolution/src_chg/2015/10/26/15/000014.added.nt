@@ -1,0 +1,9 @@
+<http://dbpedia.org/resource/Mark_Pawsey> <http://xmlns.com/foaf/0.1/name> "Pawsey, Mark"@en .
+<http://dbpedia.org/resource/Mark_Pawsey> <http://xmlns.com/foaf/0.1/name> "Mark Pawsey"@en .
+<http://dbpedia.org/resource/Mark_Pawsey> <http://dbpedia.org/property/party> "Labour Party"@en .
+<http://dbpedia.org/resource/Mark_Pawsey> <http://dbpedia.org/property/party> "Conservative Party"@en .
+<http://dbpedia.org/resource/Mark_Pawsey> <http://dbpedia.org/property/party> "British National Party"@en .
+<http://dbpedia.org/resource/Mark_Pawsey> <http://dbpedia.org/property/party> "Green Party of England and Wales"@en .
+<http://dbpedia.org/resource/Mark_Pawsey> <http://dbpedia.org/property/party> "Liberal Democrats"@en .
+<http://dbpedia.org/resource/Mark_Pawsey> <http://dbpedia.org/property/office> "for Rugby"@en .
+<http://dbpedia.org/resource/Mark_Pawsey> <http://dbpedia.org/property/party> "United Kingdom Independence Party"@en .

@@ -1,0 +1,7 @@
+<http://dbpedia.org/resource/Steve_Baker_(politician)> <http://dbpedia.org/property/office> "for Wycombe"@en .
+<http://dbpedia.org/resource/Steve_Baker_(politician)> <http://dbpedia.org/property/party> "Liberal Democrats"@en .
+<http://dbpedia.org/resource/Steve_Baker_(politician)> <http://dbpedia.org/property/party> "Conservative Party"@en .
+<http://dbpedia.org/resource/Steve_Baker_(politician)> <http://dbpedia.org/property/party> "Labour Party"@en .
+<http://dbpedia.org/resource/Andrew_Bingham> <http://dbpedia.org/property/office> "for High Peak"@en .
+<http://dbpedia.org/resource/Andrew_Bingham> <http://xmlns.com/foaf/0.1/name> "Bingham, Andrew"@en .
+<http://dbpedia.org/resource/Andrew_Bingham> <http://xmlns.com/foaf/0.1/name> "Andrew Bingham"@en .

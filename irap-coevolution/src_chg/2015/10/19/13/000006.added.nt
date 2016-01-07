@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Jesudasu_Seelam> <http://dbpedia.org/property/office> "Member of Rajya Sabha from Andhra Pradesh"@en .
+<http://dbpedia.org/resource/Jesudasu_Seelam> <http://dbpedia.org/property/office> <http://dbpedia.org/resource/Ministry_of_Finance_(India)> .
+<http://dbpedia.org/resource/Jesudasu_Seelam> <http://dbpedia.org/property/party> <http://dbpedia.org/resource/Indian_National_Congress> .
+<http://dbpedia.org/resource/Jesudasu_Seelam> <http://xmlns.com/foaf/0.1/name> "Jesudasu Seelam"@en .
+<http://dbpedia.org/resource/Jesudasu_Seelam> <http://xmlns.com/foaf/0.1/name> "Seelam, Jesudasu"@en .

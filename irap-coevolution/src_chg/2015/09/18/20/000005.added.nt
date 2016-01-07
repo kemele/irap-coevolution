@@ -1,0 +1,4 @@
+<http://dbpedia.org/resource/Thomas_Mulcair> <http://dbpedia.org/property/party> "Quebec Liberal Party"@en .
+<http://dbpedia.org/resource/Thomas_Mulcair> <http://dbpedia.org/property/office> "Leader of the New Democratic Party"@en .
+<http://dbpedia.org/resource/Thomas_Mulcair> <http://dbpedia.org/property/office> "Quebec Minister of the Environment"@en .
+<http://dbpedia.org/resource/Thomas_Mulcair> <http://xmlns.com/foaf/0.1/name> "Mulcair, Thomas"@en .

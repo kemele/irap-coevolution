@@ -1,0 +1,6 @@
+<http://dbpedia.org/resource/Nicola_Blackwood> <http://dbpedia.org/property/office> "for Oxford West and Abingdon"@en .
+<http://dbpedia.org/resource/Nicola_Blackwood> <http://xmlns.com/foaf/0.1/name> "Nicola Blackwood"@en .
+<http://dbpedia.org/resource/Nicola_Blackwood> <http://xmlns.com/foaf/0.1/name> "Blackwood, Nicola"@en .
+<http://dbpedia.org/resource/Julian_Sturdy> <http://dbpedia.org/property/office> "for York Outer"@en .
+<http://dbpedia.org/resource/Julian_Sturdy> <http://xmlns.com/foaf/0.1/name> "Julian Sturdy"@en .
+<http://dbpedia.org/resource/Julian_Sturdy> <http://xmlns.com/foaf/0.1/name> "Sturdy, Julian"@en .

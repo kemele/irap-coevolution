@@ -1,0 +1,7 @@
+<http://dbpedia.org/resource/John_Baron_(politician)> <http://dbpedia.org/property/office> "for Basildon and Billericay"@en .
+<http://dbpedia.org/resource/John_Baron_(politician)> <http://dbpedia.org/property/office> "(Billericay )"@en .
+<http://dbpedia.org/resource/John_Baron_(politician)> <http://xmlns.com/foaf/0.1/name> "John Baron"@en .
+<http://dbpedia.org/resource/John_Baron_(politician)> <http://xmlns.com/foaf/0.1/name> "Baron, John"@en .
+<http://dbpedia.org/resource/Kevin_Barron> <http://dbpedia.org/property/office> "for Rother Valley"@en .
+<http://dbpedia.org/resource/Kevin_Barron> <http://xmlns.com/foaf/0.1/name> "Sir Kevin Barron"@en .
+<http://dbpedia.org/resource/Kevin_Barron> <http://xmlns.com/foaf/0.1/name> "Barron, Kevin John"@en .

@@ -1,0 +1,13 @@
+<http://dbpedia.org/resource/Richard_Bacon_(politician)> <http://dbpedia.org/property/office> "for South Norfolk"@en .
+<http://dbpedia.org/resource/Richard_Bacon_(politician)> <http://xmlns.com/foaf/0.1/name> "Richard Bacon"@en .
+<http://dbpedia.org/resource/Richard_Bacon_(politician)> <http://xmlns.com/foaf/0.1/name> "Bacon, Richard"@en .
+<http://dbpedia.org/resource/Adrian_Bailey> <http://dbpedia.org/property/office> "Chairman of the Business, Innovation and Skills Select Committee"@en .
+<http://dbpedia.org/resource/Adrian_Bailey> <http://dbpedia.org/property/office> "for West Bromwich West"@en .
+<http://dbpedia.org/resource/Adrian_Bailey> <http://xmlns.com/foaf/0.1/name> "Adrian Bailey"@en .
+<http://dbpedia.org/resource/Adrian_Bailey> <http://xmlns.com/foaf/0.1/name> "Bailey, Adrian"@en .
+<http://dbpedia.org/resource/Steve_Baker_(politician)> <http://dbpedia.org/property/office> "for Wycombe"@en .
+<http://dbpedia.org/resource/Steve_Baker_(politician)> <http://dbpedia.org/property/party> "Liberal Democrats"@en .
+<http://dbpedia.org/resource/Steve_Baker_(politician)> <http://xmlns.com/foaf/0.1/name> "Steven Baker"@en .
+<http://dbpedia.org/resource/Steve_Baker_(politician)> <http://dbpedia.org/property/party> "Conservative Party"@en .
+<http://dbpedia.org/resource/Steve_Baker_(politician)> <http://dbpedia.org/property/party> "Labour Party"@en .
+<http://dbpedia.org/resource/Steve_Baker_(politician)> <http://xmlns.com/foaf/0.1/name> "Baker, Steve"@en .

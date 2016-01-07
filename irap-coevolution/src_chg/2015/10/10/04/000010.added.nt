@@ -1,0 +1,4 @@
+<http://dbpedia.org/resource/Oliver_Badman> <http://dbpedia.org/property/party> "UAP"@en .
+<http://dbpedia.org/resource/Oliver_Badman> <http://dbpedia.org/property/office> "Senator for South Australia"@en .
+<http://dbpedia.org/resource/Oliver_Badman> <http://xmlns.com/foaf/0.1/name> "Badman, Albert Oliver"@en .
+<http://dbpedia.org/resource/Oliver_Badman> <http://xmlns.com/foaf/0.1/name> "Albert Oliver Badman"@en .

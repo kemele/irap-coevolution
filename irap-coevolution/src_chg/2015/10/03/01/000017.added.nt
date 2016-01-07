@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Gary_Streeter> <http://dbpedia.org/property/office> "for South West Devon"@en .
+<http://dbpedia.org/resource/Gary_Streeter> <http://dbpedia.org/property/office> <http://dbpedia.org/resource/Member_of_parliament> .
+<http://dbpedia.org/resource/Gary_Streeter> <http://dbpedia.org/property/office> "for Plymouth Sutton"@en .
+<http://dbpedia.org/resource/Gary_Streeter> <http://xmlns.com/foaf/0.1/name> "Streeter, Gary"@en .
+<http://dbpedia.org/resource/Gary_Streeter> <http://xmlns.com/foaf/0.1/name> "Gary Streeter"@en .

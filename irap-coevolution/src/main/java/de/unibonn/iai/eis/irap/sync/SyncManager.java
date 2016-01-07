@@ -22,8 +22,8 @@ import org.apache.jena.tdb.TDBFactory;
 public class SyncManager {
 
 	
-	private Dataset sourceDS  = TDBFactory.createDataset("srcDs");
-	private Dataset targetDS = TDBFactory.createDataset("targetDs");
+	private Dataset sourceDS  = TDBFactory.createDataset("sourceDS");
+	private Dataset targetDS = TDBFactory.createDataset("targetDS");
 	
 	public Model sourceAdded = ModelFactory.createDefaultModel();
 	public Model sourceRemoved = ModelFactory.createDefaultModel();
@@ -39,6 +39,9 @@ public class SyncManager {
 		this.targetAdded = targetAdded;
 		this.targetRemoved = targetRemoved;
 		this.syncStrategy = strategy;
+		
+		System.out.println("Source: " + sourceAdded.size() + "-" + sourceRemoved.size());
+		System.out.println("Target: " + targetAdded.size() + "-" + targetRemoved.size());
 	}
 	
 	public List<Model> sync(){
@@ -83,8 +86,6 @@ public class SyncManager {
 			default:
 				return null;
 		}
-		
-		
 	}
 	/**
 	 * STRATEGY I:
@@ -98,6 +99,7 @@ public class SyncManager {
 		
 		Model nonSource = sourceAdded.difference(potentialConflits.get(0));
 		Model nonTarget = targetAdded.difference(potentialConflits.get(1));
+		System.out.println("Non Conflicting: " + nonSource.size() + "= " + targetRemoved.size() + " ->sc =>" + potentialConflits.get(0).size());
 		//union of non conflicting source and target triples added and conflicting triples from source (preferred triples)
 		 return nonSource.union(nonTarget).union(potentialConflits.get(0));
 	}
@@ -113,6 +115,7 @@ public class SyncManager {
 		
 		Model nonSource = sourceAdded.difference(potentialConflits.get(0));
 		Model nonTarget = targetAdded.difference(potentialConflits.get(1));
+		System.out.println("Non Conflicting: " + nonSource.size() + "= " + targetRemoved.size() + " ->sc =>" + potentialConflits.get(1).size());
 		//union of non conflicting source and target triples added and conflicting triples from target (preferred triples)
 		 return nonSource.union(nonTarget).union(potentialConflits.get(1));
 	}
@@ -131,7 +134,7 @@ public class SyncManager {
 		
 		//get triples from removed that matches same subject and predicate (this probably was rename(value change) operation
 		List<Model>  remed = getRelatedFromRemoved(potentialConflits);
-		
+		System.out.println("Non Conflicting: " + nonSource.size() + "= " + targetRemoved.size() + " ->sc =>" + remed.get(0).size() +"-"+ " = " + remed.get(1).size());
 		//union of non conflicting source and target triples added and triples matching conflicting triples from removed part of each dataset
 		 return nonSource.union(nonTarget).union(remed.get(0)).union(remed.get(1));
 	}
@@ -233,6 +236,7 @@ public class SyncManager {
 		List<Model> result = new ArrayList<Model>();
 		result.add(sadd);
 		result.add(tadd);
+		System.out.println("potentially conflicting: " + sadd.size() + "-" + tadd.size());
 		return result;
 				
 	}

@@ -1,0 +1,4 @@
+<http://dbpedia.org/resource/Thomas_Marwick> <http://dbpedia.org/property/party> "Independent"@en .
+<http://dbpedia.org/resource/Thomas_Marwick> <http://dbpedia.org/property/office> "Senator for Western Australia"@en .
+<http://dbpedia.org/resource/Thomas_Marwick> <http://xmlns.com/foaf/0.1/name> "Thomas Marwick"@en .
+<http://dbpedia.org/resource/Thomas_Marwick> <http://xmlns.com/foaf/0.1/name> "Marwick, Thomas William"@en .

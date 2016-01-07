@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Percy_Abbott_(Australian_politician)> <http://dbpedia.org/property/party> "Nationalist"@en .
+<http://dbpedia.org/resource/Percy_Abbott_(Australian_politician)> <http://dbpedia.org/property/party> "Country"@en .
+<http://dbpedia.org/resource/Percy_Abbott_(Australian_politician)> <http://dbpedia.org/property/office> "Senator for New South Wales"@en .
+<http://dbpedia.org/resource/Percy_Abbott_(Australian_politician)> <http://xmlns.com/foaf/0.1/name> "Percy Abbott"@en .
+<http://dbpedia.org/resource/Percy_Abbott_(Australian_politician)> <http://xmlns.com/foaf/0.1/name> "Abbott, Percy Phipps"@en .

@@ -1,0 +1,3 @@
+<http://dbpedia.org/resource/Miguel_de_la_Madrid> <http://dbpedia.org/property/office> "President of Mexico"@en .
+<http://dbpedia.org/resource/Miguel_de_la_Madrid> <http://xmlns.com/foaf/0.1/name> "Miguel de la Madrid"@en .
+<http://dbpedia.org/resource/Miguel_de_la_Madrid> <http://xmlns.com/foaf/0.1/name> "Madrid, Miguel de la"@en .

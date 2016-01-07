@@ -1,0 +1,4 @@
+<http://dbpedia.org/resource/Edmund_Barton> <http://dbpedia.org/property/office> "(Elections: 1901)"@en .
+<http://dbpedia.org/resource/Edmund_Barton> <http://xmlns.com/foaf/0.1/name> "Barton, Edmund"@en .
+<http://dbpedia.org/resource/Edmund_Barton> <http://xmlns.com/foaf/0.1/name> "Sir Edmund Barton"@en .
+<http://dbpedia.org/resource/Edmund_Barton> <http://dbpedia.org/property/office> "Member of the Australian Parliament for Hunter"@en .

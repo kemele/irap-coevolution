@@ -1,0 +1,3 @@
+<http://dbpedia.org/resource/John_Pugh> <http://dbpedia.org/property/office> "for Southport"@en .
+<http://dbpedia.org/resource/John_Pugh> <http://xmlns.com/foaf/0.1/name> "John Pugh"@en .
+<http://dbpedia.org/resource/John_Pugh> <http://xmlns.com/foaf/0.1/name> "Pugh, John"@en .

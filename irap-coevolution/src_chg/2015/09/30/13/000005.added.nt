@@ -1,0 +1,9 @@
+<http://dbpedia.org/resource/Dawn_Butler> <http://dbpedia.org/property/office> "for Brent South"@en .
+<http://dbpedia.org/resource/Dawn_Butler> <http://xmlns.com/foaf/0.1/name> "Butler, Dawn"@en .
+<http://dbpedia.org/resource/Dawn_Butler> <http://xmlns.com/foaf/0.1/name> "Dawn Butler"@en .
+<http://dbpedia.org/resource/Simon_Burns> <http://dbpedia.org/property/office> "(West Chelmsford )"@en .
+<http://dbpedia.org/resource/Simon_Burns> <http://dbpedia.org/property/office> "for Chelmsford"@en .
+<http://dbpedia.org/resource/Simon_Burns> <http://xmlns.com/foaf/0.1/name> "Burns, Simon"@en .
+<http://dbpedia.org/resource/David_Burrowes> <http://dbpedia.org/property/office> "for Enfield Southgate"@en .
+<http://dbpedia.org/resource/David_Burrowes> <http://xmlns.com/foaf/0.1/name> "Burrowes, David"@en .
+<http://dbpedia.org/resource/David_Burrowes> <http://xmlns.com/foaf/0.1/name> "David Burrowes"@en .

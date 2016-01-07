@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Max_Streibl> <http://dbpedia.org/property/office> "Bavarian Minister for Finance"@en .
+<http://dbpedia.org/resource/Max_Streibl> <http://dbpedia.org/property/office> "Bavarian Minister for the Environment"@en .
+<http://dbpedia.org/resource/Max_Streibl> <http://xmlns.com/foaf/0.1/name> "Streibl, Max"@en .
+<http://dbpedia.org/resource/Max_Streibl> <http://dbpedia.org/property/office> "Minister President of Bavaria"@en .
+<http://dbpedia.org/resource/Max_Streibl> <http://xmlns.com/foaf/0.1/name> "Max Streibl"@en .

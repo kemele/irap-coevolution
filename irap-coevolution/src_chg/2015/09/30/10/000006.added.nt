@@ -1,0 +1,6 @@
+<http://dbpedia.org/resource/Graham_Brady> <http://dbpedia.org/property/office> "for Altrincham and Sale West"@en .
+<http://dbpedia.org/resource/Graham_Brady> <http://xmlns.com/foaf/0.1/name> "Graham Brady"@en .
+<http://dbpedia.org/resource/Graham_Brady> <http://xmlns.com/foaf/0.1/name> "Brady, Graham"@en .
+<http://dbpedia.org/resource/Tom_Brake> <http://dbpedia.org/property/office> "for Carshalton and Wallington"@en .
+<http://dbpedia.org/resource/Tom_Brake> <http://xmlns.com/foaf/0.1/name> "Tom Brake"@en .
+<http://dbpedia.org/resource/Tom_Brake> <http://xmlns.com/foaf/0.1/name> "Brake, Tom"@en .

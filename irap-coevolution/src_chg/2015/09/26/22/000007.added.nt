@@ -1,0 +1,5 @@
+<http://dbpedia.org/resource/Roseana_Sarney> <http://dbpedia.org/property/office> "Member of the Federal Senate"@en .
+<http://dbpedia.org/resource/Roseana_Sarney> <http://xmlns.com/foaf/0.1/name> "Sarney, Roseana"@en .
+<http://dbpedia.org/resource/Roseana_Sarney> <http://dbpedia.org/property/office> "Governor of MaranhÃ£o"@en .
+<http://dbpedia.org/resource/Roseana_Sarney> <http://xmlns.com/foaf/0.1/name> "Roseana Sarney"@en .
+<http://dbpedia.org/resource/Roseana_Sarney> <http://dbpedia.org/property/party> <http://dbpedia.org/resource/Brazilian_Democratic_Movement_Party> .

@@ -1,0 +1,4 @@
+<http://dbpedia.org/resource/Susan_B._Loving> <http://dbpedia.org/property/office> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://dbpedia.org/resource/Susan_B._Loving> <http://xmlns.com/foaf/0.1/name> "Loving, Susan B."@en .
+<http://dbpedia.org/resource/Susan_B._Loving> <http://xmlns.com/foaf/0.1/name> "Susan Brimer Loving"@en .
+<http://dbpedia.org/resource/Susan_B._Loving> <http://xmlns.com/foaf/0.1/name> "Susan B. Loving"@en .
